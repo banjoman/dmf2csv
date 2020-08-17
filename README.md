@@ -18,7 +18,10 @@ Converts the SSA Death Master File to CSV
 
 **Q:** Why does this script look so terrible?
 
-**A:** This is something that you should not be running more than once. As a result, there was no need to overengineer this. All you should care about is the script working, and the end result being acceptable for your use case. It took 20 minutes to run through ~11 million rows.
+**A:** This is something that you should not be running more than once. All you should care about is the script working, and the end result being acceptable for your use case. For reference, it took 20 minutes to run through ~11 million rows on an ancient laptop. As a result, there was no need to overengineer this. The only requirement was to be able to get through the file, and properly adhere to this format:
+
+~[format](format.png)
+
 
 **Q:** What considerations did you take in making this?
 
@@ -32,4 +35,4 @@ Converts the SSA Death Master File to CSV
 
     4. Everyone gets into fistfights regarding how dates should be formatted, so I've split them all off into their respective columns for your own reconstruction.
 
-Altogether, this should result in a smaller csv that's easier to manage (at least, for most use cases). If you disagree,  pleasefeel free to open a pull request!
+Altogether, this should result in a smaller csv that's easier to manage (at least, for most use cases). If you disagree, please feel free to open a pull request!
