@@ -1,4 +1,4 @@
-# ssdmf2csv
+# dmf2csv
 
 Converts the SSA Death Master File to CSV
 
@@ -18,7 +18,7 @@ Converts the SSA Death Master File to CSV
 
 **Q:** Why does this script look so terrible?
 
-**A:** This is something that you should not be running more than once. All you should care about is the script working, and the end result being acceptable for your use case. For reference, it took 20 minutes to run through ~87 million rows on an ancient laptop. As a result, there was no need to overengineer this. The only requirement was to be able to get through the file, and properly adhere to this format:
+**A:** This is something that you should not be running more than once. All you should care about is the script working, and the end result being acceptable for your use case. For reference, it took 20 minutes to run through ~87	 million rows on an ancient laptop. As a result, there was no need to overengineer this. The only requirement was to be able to get through the file, and properly adhere to this format:
 
 ![format](format.png)
 
